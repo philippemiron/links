@@ -10,33 +10,34 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <style>
       h1 {
         font-size: 30px;
         color: #022B3A;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Playfair Display', serif;
       }
-      
+
       body {
         margin-top: 30px;
         text-align: center;
         background-color: #FFFFFF;
       }
-      
+
       .bio {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'DM Sans', sans-serif;
         font-size: 16px;
         max-width: 375px;
         width: 95%;
         display: block;
         margin: 0 auto;
+        font-style: italic;
       }
 
       .bio > a {
         text-decoration: none; 
         color: inherit;
-        font-style: italic;
+        font-style: normal;
       }
 
       .profile-photo {
@@ -45,7 +46,7 @@
       }
 
       .links {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'DM Sans', sans-serif;
         font-size: 18px;
         list-style: none;
         padding: 0px;
@@ -77,19 +78,25 @@
       .links > li:nth-child(n+5):nth-child(-n+6) > a {
         background-color: #165764;
       }
-      
+
       .links > li > a:hover {
         background: #022B3A;
       }
       .links > li > a:focus {
         background: #1F7A8C;
       }
+      
+      .footer {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 12px;
+        list-style: none;
+      }
     </style>
   </head>
 
   <body>
     <img class="profile-photo" src="./portrait.webp" alt="Portrait picture">
-    
+
     <h1>Philippe Miron</h1>
 
     <p class="bio">Senior Scientific Engineer at <a href="https://www.dtn.com/" title="DTN site">DTN</a></p>
@@ -131,5 +138,7 @@
       </li>
     </ul>
   </body>
+  <div class="footer">
   Made with ❤ and free time
+  </div>
   </html>
